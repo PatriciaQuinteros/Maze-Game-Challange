@@ -1,0 +1,97 @@
+body{
+
+  background-image: url("landscape-1844226_1280.png");
+}
+
+header {
+  display: flex;
+  align-items: center;
+  
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content: space-between;
+  
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#canvas{
+
+  width:600px;
+  height:300px;
+
+
+}
+#minimap{
+  border:4px solid black;
+ 
+ 
+  width:300px;
+  height:300px;
+}
+#screenshot-wrapper{
+  
+  bottom: 50px;
+  border:10px solid black;
+}
+#camera{
+  width:100px;
+  
+	object-position: bottom 10px right 20px;
+	
+  
+
+
+}
+#boxmodel{
+ background-color: lightgrey;
+  width: 600px;
+  border: 15px solid mediumpurple;
+  padding: 10px;
+  margin: 20px;
+
+	
+
+
+}
+
+#HUD{
+
+ border: 2px solid black;
+  outline: #9771F5 solid 5px;
+  margin: 20px;  
+  padding: 5px;
+  text-align: auto;
+font-family: "Trirong", serif;
+color: red;
+font-weight: bold;
+
+}
+#pos{
+
+  color: palevioletred;
+ font-weight: bold;
+}
+
+#posx{
+  color: yellow;
+}
+#posy{
+  color: yellow;
+}
+#percent{
+  color: yellow;
+}
+
